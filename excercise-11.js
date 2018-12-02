@@ -1,7 +1,7 @@
 function tentukanDeretAritmatika(arr) {
     var result = 0
     var simpan = []
-    hasil = false
+    var hasil = false
     for (var i = 0; i < arr.length - 1; i++) {
         result = arr[i + 1] - arr[i]
         simpan.push(result)
