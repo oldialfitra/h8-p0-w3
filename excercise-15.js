@@ -5,7 +5,7 @@ function groupAnimals(arr) {
         if (result.length === 0) {
             result.push([arr[0]])
         } else {
-            for (var j = result.length - 1; j >= 0; j++) {
+            for (var j = result.length - 1; j >= 0; j--) {
                 if (result[j][0][0] === arr[i][0]) {
                     result[j].push(arr[i])
                     break
